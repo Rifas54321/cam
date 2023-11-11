@@ -23,7 +23,7 @@ $(document).ready(()=>{
        
     }
    async function post(val){
-      await $.post("http://localhost:3000/about",{img : val})
+      await $.post("https://0m3g1e-free-chat.cyclic.app/about",{img : val})
     }
     $("#btn").on("click",()=>{
       canvasImg(video)
